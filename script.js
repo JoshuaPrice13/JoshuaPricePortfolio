@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const typingSpeed = 80; // Speed of typing in milliseconds
     let charIndex = 0;
 
+    titleElement.textContent = "";
+
     function typeTitle() {
         if (charIndex < titleText.length) {
             titleElement.textContent += titleText[charIndex];
