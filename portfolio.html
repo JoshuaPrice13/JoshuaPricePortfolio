@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Joshua Price</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Portfolio.</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="portfolio-header">
+            <h1>My Projects</h1>
+            <p>Explore my journey through code - from innovative web applications to complex desktop solutions and engaging games.</p>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="desktop">Desktop</button>
+            <button class="filter-btn" data-filter="game">Games</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Web Projects -->
+            <div class="project-widget" data-category="web">
+                <div class="project-image">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">Full-stack e-commerce solution with modern UI/UX, payment integration, and admin dashboard. Built with responsive design principles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-widget" data-category="web">
+                <div class="project-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Analytics Dashboard</h3>
+                    <p class="project-description">Real-time data visualization dashboard with interactive charts and customizable widgets for business intelligence.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop Projects -->
+            <div class="project-widget" data-category="desktop">
+                <div class="project-image">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">3D Simulation Engine</h3>
+                    <p class="project-description">Advanced 3D physics simulation engine with real-time rendering, collision detection, and vector calculus implementations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">OpenGL</span>
+                        <span class="tech-tag">GLFW</span>
+                        <span class="tech-tag">Linear Algebra</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-play"></i>
+                            Demo
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-widget" data-category="desktop">
+                <div class="project-image">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Inventory Management System</h3>
+                    <p class="project-description">Enterprise-level inventory management system with barcode scanning, automated reporting, and multi-user access control.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">.NET Framework</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">WPF</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-download"></i>
+                            Download
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Projects -->
+            <div class="project-widget" data-category="mobile">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Fitness Tracker App</h3>
+                    <p class="project-description">Cross-platform mobile app for tracking workouts, nutrition, and health metrics with social features and progress analytics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Redux</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-app-store"></i>
+                            App Store
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-google-play"></i>
+                            Play Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game Projects -->
+            <div class="project-widget" data-category="game">
+                <div class="project-image">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Space Explorer 3D</h3>
+                    <p class="project-description">Immersive 3D space exploration game with procedural generation, physics-based movement, and stunning visual effects.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">Blender</span>
+                        <span class="tech-tag">Procedural Gen</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-play"></i>
+                            Play Game
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-widget" data-category="game">
+                <div class="project-image">
+                    <i class="fas fa-chess"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI Chess Engine</h3>
+                    <p class="project-description">Advanced chess engine with AI opponent using minimax algorithm, alpha-beta pruning, and machine learning evaluation.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">JavaFX</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Algorithms</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fas fa-play"></i>
+                            Play Game
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectWidgets = document.querySelectorAll('.project-widget');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                projectWidgets.forEach(widget => {
+                    const category = widget.getAttribute('data-category');
+                    
+                    if (filterValue === 'all' || category === filterValue) {
+                        widget.classList.remove('hidden');
+                    } else {
+                        widget.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Smooth reveal animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'slideInUp 0.6s ease forwards';
+                }
+            });
+        }, observerOptions);
+
+        projectWidgets.forEach(widget => {
+            observer.observe(widget);
+        });
+
+        // Add slide-in animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
