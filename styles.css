@@ -221,6 +221,26 @@ nav ul li a:hover, .active {
     z-index: 1;
 }
 
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;           /* Crop to fit container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;                 /* Behind the overlay and icon */
+}
+
+/* Hide icon when image exists */
+.project-image:has(img) i {
+    display: none;              /* Hide icon if image is present */
+}
+
+/* Alternative if :has() doesn't work in older browsers */
+.project-image img + i {
+    display: none;              /* Hide icon that comes after img */
+}
+
 .project-content {
     padding: 1.5rem;
     color: #fff;
