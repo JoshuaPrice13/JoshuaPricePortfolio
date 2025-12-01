@@ -84,20 +84,38 @@ nav ul li a:hover, .active {
 }
 
 .download-btn {
-    display: inline-block;
-    background: cyan;
-    color: black;
-    padding: 12px 25px;
-    border-radius: 25px;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(77, 54, 208, 1) 0%,
+    rgba(132, 116, 254, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.download-btn svg {
+  margin-right: 8px;
 }
 
 .download-btn:hover {
-    box-shadow: 0 0 20px cyan;
+  box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
 }
+
+.download-btn:active {
+  box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}
+
 
 .hero-image img {
     width: 300px;
@@ -217,7 +235,7 @@ nav ul li a:hover, .active {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,0.2);
+    background: #00000033;
     z-index: 1;
 }
 
@@ -269,7 +287,7 @@ nav ul li a:hover, .active {
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff4d;
     transition: all 0.3s ease;
     font-size: 0.9rem;
 }
@@ -317,19 +335,19 @@ nav ul li a:hover, .active {
 
 /* Project Categories Specific Colors */
 .project-widget[data-category="web"] .project-image {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #ffffff4d, #00000033);
 }
 
 .project-widget[data-category="mobile"] .project-image {
-    background: linear-gradient(45deg, #f093fb, #f5576c);
+    background: linear-gradient(45deg, #ffffff4d, #00000033);
 }
 
 .project-widget[data-category="desktop"] .project-image {
-    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    background: linear-gradient(45deg, #ffffff4d, #00000033);
 }
 
 .project-widget[data-category="game"] .project-image {
-    background: linear-gradient(45deg, #43e97b, #38f9d7);
+    background: linear-gradient(45deg, #ffffff4d, #00000033);
 }
 
 /* Footer Styles */
