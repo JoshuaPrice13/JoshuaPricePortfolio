@@ -8,20 +8,20 @@ A modern, responsive portfolio website showcasing software engineering projects,
 
 ## Features
 
-- **Responsive Design**: Fully mobile-friendly layout that adapts to all screen sizes
-- **Modern UI/UX**: Cyberpunk-inspired design with smooth animations and hover effects
-- **Project Portfolio**: Filterable project showcase with categories (Web, Mobile, Desktop, Game)
-- **Skills Section**: Comprehensive display of technical skills and proficiencies
-- **Social Integration**: Direct links to GitHub, LinkedIn, and Instagram
-- **Resume Access**: Downloadable PDF resume
+* **Responsive Design**: Fully mobile-friendly layout that adapts to all screen sizes
+* **Modern UI/UX**: Cyberpunk-inspired design with smooth animations and hover effects
+* **Project Portfolio**: Filterable project showcase with categories (Web, Mobile, Desktop, Game)
+* **Skills Section**: Comprehensive display of technical skills and proficiencies
+* **Social Integration**: Direct links to GitHub, LinkedIn, and Instagram
+* **Resume Access**: Downloadable PDF resume
 
 ## Technologies Used
 
-- **HTML5**: Semantic markup and structure
-- **CSS3**: Modern styling with flexbox, grid, and animations
-- **JavaScript**: Interactive filtering and dynamic content
-- **Font Awesome**: Icon library for social media and UI elements
-- **Custom Fonts**: Terminal-inspired typography for unique branding
+* **HTML5**: Semantic markup and structure
+* **CSS3**: Modern styling with flexbox, grid, and animations
+* **JavaScript**: Interactive filtering and dynamic content
+* **Font Awesome**: Icon library for social media and UI elements
+* **Custom Fonts**: Terminal-inspired typography for unique branding
 
 ## Project Structure
 
@@ -35,18 +35,38 @@ JoshuaPricePortfolio/
 ├── styles.css              # Main stylesheet
 ├── script.js               # JavaScript functionality
 ├── Files/                  # Assets directory
-│   ├── 3D_Assests/        # 3D models and assets
+│   ├── 3D\\\_Assests/        # 3D models and assets
 │   ├── JoshuaProfilePic.jpg
-│   ├── Resume_Sept_2025_CAREERFAIR.pdf
+│   ├── Resume\\\_Sept\\\_2025\\\_CAREERFAIR.pdf
 │   └── project images...
 ├── Fonts/                  # Custom font files
 │   ├── PixelPurl.ttf
-│   └── windows_command_prompt.ttf
-├── js_resources/           # JavaScript libraries
+│   └── windows\\\_command\\\_prompt.ttf
+├── js\\\_resources/           # JavaScript libraries
 │   ├── three.module.js
 │   └── FBXLoader.js
-└── nc_assets/              # Namecheap hosting assets
+└── nc\\\_assets/              # Namecheap hosting assets
 ```
+
+## Getting Started
+
+### Prerequisites
+
+* A modern web browser (Chrome, Firefox, Safari, Edge)
+* Basic knowledge of HTML/CSS/JavaScript for modifications
+* FTP client for deployment (WinSCP recommended)
+
+### Local Development
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/JoshuaPrice13/JoshuaPricePortfolio.git
+cd JoshuaPricePortfolio
+```
+
+2. Open `index.html` in your web browser to view the site locally
+3. Make changes to HTML, CSS, or JavaScript files as needed
 
 ## License
 
@@ -54,13 +74,18 @@ JoshuaPricePortfolio/
 
 ## Contact
 
-- **Email**: jprice.dev@gmail.com
-- **GitHub**: [JoshuaPrice13](https://github.com/JoshuaPrice13)
-- **LinkedIn**: [Joshua Price](https://www.linkedin.com/in/joshua-price-680750244)
+* **Email**: jprice.dev@gmail.com
+* **GitHub**: [JoshuaPrice13](https://github.com/JoshuaPrice13)
+* **LinkedIn**: [Joshua Price](https://www.linkedin.com/in/joshua-price-680750244)
 
 ## Acknowledgments
 
-- Oklahoma State University Computer Science Program
-- American Indian Science and Engineering Society
-- Font Awesome for icon library
-- Namecheap for hosting services
+* Oklahoma State University Computer Science Program
+* American Indian Science and Engineering Society
+* Font Awesome for icon library
+* Namecheap for hosting services
+
+---
+
+**Note**: This portfolio represents my journey as a Computer Science student at Oklahoma State University and showcases my passion for software development, game engineering, and STEM education.
+

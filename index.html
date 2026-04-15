@@ -9,32 +9,189 @@
     
 </head>
 <body>
-    <header>
+    <!-- <header>
         <h2 class="logo">Joshua Price</h2>
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
-    </header>
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Joshua Price</h1>
-            <h3><span class="highlight">Software Engineer</span></h3>
-            <p>Innovative Software Engineer skilled in Java, C#, C++, and .NET, with a passion for crafting efficient, high-impact solutions. Experienced in 3D simulations, Vector Calculus, and modern dev tools like Git and Visual Studio. Currently honing my craft at Oklahoma State University, pursuing a Bachelor's in Computer Science.</p>
-            <div class="social-icons">
-                <a href="https://github.com/JoshuaPrice13"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/joshua-price-680750244"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/joshua_price4"><i class="fab fa-instagram"></i></a>
+    </header> -->
+
+    <div class="main-container">
+        <!-- Left Side: Profile Card (25%) -->
+        <aside class="profile-sidebar">
+            <div class="profile-card">
+                <span class="card-name">Joshua Price</span>
+                <span class="card-title">Software Engineer</span>
+                <div class="card-img">
+                    <img src="Files/JoshuaProfilePic.jpg" alt="Profile Image">
+                </div>
+                <span class="card-info">Innovative Software Engineer skilled in Java, C#, C++, and .NET, with a passion for crafting efficient, high-impact solutions. Currently pursuing a Bachelor's in Computer Science at Oklahoma State University.</span>
+                <div class="card-share">
+                    <a href="https://github.com/JoshuaPrice13"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/joshua-price-680750244"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/joshua_price4"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="Files/Resume_Sept_2025_CAREERFAIR.pdf" class="card-button">View Resume</a>
             </div>
-            <a href="Files/Resume_Sept_2025_CAREERFAIR.pdf" class="download-btn">Resume</a>
-        </div>
-        <div class="hero-image">
-            <img src="Files/JoshuaProfilePic.jpg" alt="Profile Image">
-        </div>
-    </section>
+        </aside>
+
+        <!-- Right Side: Projects Feed -->
+        <main class="projects-main">
+            <div class="projects-feed">
+
+                <!-- Personal Portfolio Website -->
+                <div class="feed-card">
+                    <div class="feed-card-image">
+                        <img src="Files/Portfolio_pic.png" alt="Portfolio Cover Photo">
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">Personal Portfolio Website</h3>
+                        <p class="feed-card-description">All files for this personal website portfolio — built from scratch with a cyberpunk terminal aesthetic.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Web Hosting</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="https://github.com/JoshuaPrice13/JoshuaPricePortfolio" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FinTrack -->
+                <div class="feed-card">
+                    <div class="feed-card-image">
+                        <img src="Files/FinTrack_pic.png" alt="FinTrack Cover Photo">
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">FinTrack</h3>
+                        <p class="feed-card-description">AI-powered budgeting application that processes bank statements using OCR, Tabula, and LLM integration through Ollama. Features CustomTkinter GUI, SQLite database, and sophisticated PDF parsing with OCR fallback for transaction categorization.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tesseract OCR</span>
+                            <span class="tech-tag">Tabula</span>
+                            <span class="tech-tag">Ollama LLM</span>
+                            <span class="tech-tag">CustomTkinter</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="https://github.com/JoshuaPrice13/FinTrack" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Log App -->
+                <div class="feed-card">
+                    <div class="feed-card-image feed-card-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">Daily Log App</h3>
+                        <p class="feed-card-description">Java Swing desktop application for structured daily productivity tracking. Features a session-based daily log, persistent task database with categories and status tracking, and a summary/stats panel. Data is stored locally as JSON with auto-save and ships as a bundled Windows executable.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Swing</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="Files/Daily_Log_App_v2.zip" class="project-link">
+                                <i class="fas fa-download"></i>
+                                Download
+                            </a>
+                            <a href="https://github.com/JoshuaPrice13/Daily_Log_App" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linear System Solver Comparison -->
+                <div class="feed-card">
+                    <div class="feed-card-image feed-card-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">Linear System Solver Comparison</h3>
+                        <p class="feed-card-description">Java implementation comparing three methods for solving 5x5 linear systems: Cramer's Rule, Gaussian Elimination, and LU Decomposition. Includes performance timing, complexity analysis (O(n!) vs O(n³)), and runs each method 100 times for statistical accuracy.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Numerical Methods</span>
+                            <span class="tech-tag">Algorithm Analysis</span>
+                            <span class="tech-tag">Linear Algebra</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="https://github.com/JoshuaPrice13/linear-system-solver-comparison" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Numerical Interpolation Visualizer -->
+                <div class="feed-card">
+                    <div class="feed-card-image">
+                        <img src="Files/NIV_pic.png" alt="Numerical Interpolation Visualizer Cover Photo">
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">Numerical Interpolation Visualizer</h3>
+                        <p class="feed-card-description">Advanced polynomial interpolation using Chebyshev nodes with adaptive order selection and point merging for numerical stability. Features JFreeChart visualization showing multiple polynomial orders, error calculation, and graphical comparison of interpolation accuracy.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JFreeChart</span>
+                            <span class="tech-tag">Chebyshev Polynomials</span>
+                            <span class="tech-tag">Numerical Analysis</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="https://github.com/JoshuaPrice13/numerical-interpolation-visualizer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pixel Quest -->
+                <div class="feed-card">
+                    <div class="feed-card-image">
+                        <img src="Files/PixelQuest.png" alt="Pixel Quest Preview">
+                    </div>
+                    <div class="feed-card-body">
+                        <h3 class="feed-card-title">Pixel Quest</h3>
+                        <p class="feed-card-description">Simple 2D platformer built in Godot as my first game engine project, based on a tutorial from Brackeys. Playable in browser via itch.io.</p>
+                        <div class="feed-card-tech">
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">Godot</span>
+                            <span class="tech-tag">GDScript</span>
+                            <span class="tech-tag">Game Loop</span>
+                        </div>
+                        <div class="feed-card-links">
+                            <a href="https://joshuaprice13.itch.io/pixelquest-html" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Play Game
+                            </a>
+                            <a href="https://github.com/JoshuaPrice13/PixelQuest" class="project-link">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
 
     <footer>
         <div class="footer-content">
@@ -59,6 +216,6 @@
         </div>
     </footer>
 
-    <script src="DownloadResume.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
